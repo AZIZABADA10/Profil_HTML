@@ -1,0 +1,69 @@
+/*
+
+*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header img {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.rigth-hero{
+    display: flex;
+    align-items: center;
+}
+
+.rigth-hero img {
+    padding-left: 25px;
+    padding-right:10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    font-weight: bolder;
+    font-size: 23px;
+    justify-content: space-between;
+}
+
+#etoiles {
+    width: 150px;
+    margin: -75px;
+}
+
+#descr{
+    color: #a1a0a0;
+    font-size: 15px;
+}
+
+.paragra {
+    color: #3f3f3f;
+    margin-left: 65px;
+    margin-top: -5px;
+    font-size: 17px;
+}
+
+#photo_profile{
+    width: 150px;
+    border: 6px solid #d62976;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.buttons button{
+    padding: 4px 10px;
+    border-radius: 12px;
+    border: 1px solid #9c9a9a;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+}
